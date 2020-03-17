@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Sign In</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <form action="/controllers/authenticate-controller" method="POST" >
+                <label for="userId">USER ID</label>
+                <input type="email" name="userId" id="userId" placeholder="User Id" required>
+                <label for="password">PASSWORD</label>
+                <input type="password" name="password" id="password" placeholder="Password" required>
+                <input type="submit" value="LOG IN">
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/style.css">
+    <title>Sign Up</title>
+</head>
+<body>
+    <div class="container">
+        <div class="inner-container">
+            <form action="/controllers/register-controller" method="POST">
+                    
+                <label for="">Name</label>
+                <input type="text" name="name" placeholder="NAME" required> 
+                <label for="">Contact No.</label>
+                <input type="text" name="mobile" id="" placeholder="MOBILE NO." required>
+                <label for="">E-mail</label>
+                <input type="enomail" name="email" id="" placeholder="E-MAIL" required>
+                <label for="">User Id</label>
+                <input type="email" name="userId" id="" placeholder="USER ID" required>
+                <label for="">Password</label>
+                <input type="password" name="password" id="" placeholder="PASSWORD" required>
+                <input type="submit" value="SIGN UP">
+            </form>
+        </div>
+    </div>
+    <!-- <script src="js/app.js"></script> -->
+</body>
+</html>
+app.listen(8080);
